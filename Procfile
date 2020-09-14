@@ -1,2 +1,3 @@
 release: python manage.py migrate
-web: gunicorn engsof.wsgi --preload --log-file-
+
+web: gunicorn engsof.wsgi; --log-file -
